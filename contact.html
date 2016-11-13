@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>About | Kristin Esterley</title>
+	<title>Contact | Kristin Esterley</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -21,13 +21,25 @@
 
 	<div id="main-container" class="container">
 		<section class="main-section">
-			<h1>About Me</h1>
+			<h1>Contact</h1>
 
-			<img src="assets/images/KRE.jpg" class="auth-image" alt="Kristin Esterley">
-
-			<p>I am currently a student enrolled in the UNC Coding Bootcamp in Chapel Hill, NC. In this program, we are learning to be full stack web developers. I hope to work creating web applications for nonprofits, artists, writers, educators and other community support organizations.</p>
-
-			<p>My professional background includes software development and math education. I enjoy reading, writing, gardening, my backyard chickens and my two Boston Terriers. I have two kids in college at UNC Chapel Hill. My husband works for Danaher in IT Management.</p>
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 
 		</section>
 
