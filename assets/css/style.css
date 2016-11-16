@@ -254,22 +254,13 @@ input[type=submit] {
 		margin-left:40px;
 		margin-right: 40px;
 	}
-.work:nth-child(odd) {
-	float: right;
-}
+	.work:nth-child(odd) {
+		float: right;
+	}
 
 	.work {
 		width: 210px;
 		height: 192px;
-
-
-
-
-/*
-		overflow: auto;
-		position: relative;
-		float: left;
-		margin: 20px 0 25px;*/
 	}
 }
 @media screen and (max-width:640px){
@@ -296,9 +287,7 @@ input[type=submit] {
 	#logo {
 		width: 100%;
 	}
-/*	.work:nth-child(odd) {
-	float: left;
-}*/
+
 	nav {
 		float: left;
 		width:100%;
@@ -311,5 +300,3 @@ input[type=submit] {
 
 }
 
-
-}
